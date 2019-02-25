@@ -5,7 +5,12 @@
 </head>
 <body>
     <script>
-        { }
+        var days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+
+        document.write(days.length);
+        for (i = days.length; i < 5; i++) {
+            document.write(days[i]+"<p>");
+        }
     </script>
 </body>
 </html>
